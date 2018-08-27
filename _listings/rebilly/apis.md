@@ -6,11 +6,70 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Change
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Change authentication options
+  x-api-slug: authenticationoptions-put
+  description: Change options
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/rebilly/authenticationoptions-put-openapi.md
+- name: Rebilly - Retrieve the change history of the set of rules for a custom event
+  x-api-slug: customeventsidruleshistory-get
+  description: |-
+    Retrieve the change history of the set of rules for the selected custom event.
+    The history is updated each time you change the rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/rebilly/customeventsidruleshistory-get-openapi.md
+- name: Rebilly - Retrieve the record from the change history of the set of rules
+    for a custom event
+  x-api-slug: customeventsidruleshistoryversion-get
+  description: |-
+    Retrieve the record from the change history of the set of rules for the selected custom event.
+    A history record is created each time you change the rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/rebilly/customeventsidruleshistoryversion-get-openapi.md
+- name: Rebilly - Retrieve the change history of the set of rules
+  x-api-slug: eventseventtyperuleshistory-get
+  description: |-
+    Retrieve the change history of the selected set of rules.
+    The history is updated each time you change the rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/rebilly/eventseventtyperuleshistory-get-openapi.md
+- name: Rebilly - Retrieve the record from the change history of the set of rules
+  x-api-slug: eventseventtyperuleshistoryversion-get
+  description: |-
+    Retrieve the record from the change history of the selected set of rules.
+    A history record is created each time you change the rules.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/rebilly/eventseventtyperuleshistoryversion-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

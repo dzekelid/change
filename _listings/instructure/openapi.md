@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Instructure
 x-complete: 1
@@ -15,4 +14,96 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /audit/grade_change/assignments/{assignment_id}:
+    get:
+      summary: Query by assignment.
+      description: Query by assignment..
+      operationId: query-by-assignment
+      x-api-path-slug: auditgrade-changeassignmentsassignment-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Grade
+      - Change
+      - Assignments
+      - Assignment
+      - Id
+  /audit/grade_change/courses/{course_id}:
+    get:
+      summary: Query by course.
+      description: Query by course..
+      operationId: query-by-course
+      x-api-path-slug: auditgrade-changecoursescourse-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Grade
+      - Change
+      - Courses
+      - Course
+      - Id
+  /audit/grade_change/graders/{grader_id}:
+    get:
+      summary: Query by grader.
+      description: Query by grader..
+      operationId: query-by-grader
+      x-api-path-slug: auditgrade-changegradersgrader-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Grade
+      - Change
+      - Graders
+      - Grader
+      - Id
+  /audit/grade_change/students/{student_id}:
+    get:
+      summary: Query by student.
+      description: Query by student..
+      operationId: query-by-student
+      x-api-path-slug: auditgrade-changestudentsstudent-id-get
+      parameters:
+      - in: query
+        name: end_time
+        description: The end of the time range from which you want events
+      - in: query
+        name: start_time
+        description: The beginning of the time range from which you want events
+      responses:
+        200:
+          description: OK
+      tags:
+      - Audit
+      - Grade
+      - Change
+      - Students
+      - Student
+      - Id

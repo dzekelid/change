@@ -13,11 +13,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Change
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/click-meter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Click Meter - Change the permission on a shared object
+  x-api-slug: accountguestsguestidtypepermissionspatch-post
+  description: Change the permission on a shared object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/click-meter/accountguestsguestidtypepermissionspatch-post-openapi.md
+- name: Click Meter - Change the permission on a shared object
+  x-api-slug: accountguestsguestidtypepermissionspatch-put
+  description: Change the permission on a shared object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clickmeter-logo.png
+  humanURL: http://clickmeter.com
+  baseURL: https://apiv2.clickmeter.com:80//
+  tags: API Provider, Links, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/click-meter/accountguestsguestidtypepermissionspatch-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clearbit.api.gallery.streamdata.io

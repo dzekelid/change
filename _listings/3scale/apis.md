@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.j
 x-kinRank: "10"
 x-alexaRank: "333433"
 tags: Change
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/3scale/apis.md
 specificationVersion: "0.14"
 apis:
@@ -64,6 +64,39 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/3scale/adminapiaccountsidchange-plan-xml-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/3scale/adminapiaccountsidchange-plan-xml-put-openapi.md
+- name: 3Scale Account Management API - End User Change Plan
+  x-api-slug: adminapiservicesservice-idend-usersusernamechange-plan-xml-put
+  description: End user change plan.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/3scale/adminapiservicesservice-idend-usersusernamechange-plan-xml-put-openapi.md
+- name: 3Scale Account Management API - User change Role to Admin (provider account)
+  x-api-slug: adminapiusersidadmin-xml-put
+  description: User change role to admin (provider account).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/3scale/adminapiusersidadmin-xml-put-openapi.md
+- name: 3Scale Account Management API - User change Role to Member (provider account)
+  x-api-slug: adminapiusersidmember-xml-put
+  description: User change role to member (provider account).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg
+  humanURL: http://3scale.net
+  baseURL: https://su1.3scale.net//
+  tags: Management, Management, My API Stack, Imports, Stack Network, SaaS, Technology,
+    Enterprise, API Service Provider, Profiles, Portals
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/3scale/adminapiusersidmember-xml-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://3scale.api.gallery.streamdata.io

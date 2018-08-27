@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Change
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/google-drive/apis.md
 specificationVersion: "0.14"
 apis:
@@ -41,6 +41,28 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/google-drive/changesstartpagetoken-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/google-drive/changesstartpagetoken-get-openapi.md
+- name: Google Drive - Watch Changes
+  x-api-slug: changeswatch-post
+  description: Subscribes to changes for a user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
+  humanURL: https://developers.google.com/drive/
+  baseURL: https://www.googleapis.com//drive/v3
+  tags: Documents, Storage, Google APIs, Stack Network, Stack, Productivity, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/google-drive/changeswatch-post-openapi.md
+- name: Google Drive - Stop Watching Changes
+  x-api-slug: channelsstop-post
+  description: Stop watching resources through this channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-drive-logo-new.png
+  humanURL: https://developers.google.com/drive/
+  baseURL: https://www.googleapis.com//drive/v3
+  tags: Documents, Storage, Google APIs, Stack Network, Stack, Productivity, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/google-drive/channelsstop-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.doubleclick.api.gallery.streamdata.io

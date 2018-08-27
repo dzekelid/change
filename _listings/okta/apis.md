@@ -8,11 +8,33 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.
 x-kinRank: "8"
 x-alexaRank: "450"
 tags: Change
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/okta/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Users (Okta API) - Change Password
+  x-api-slug: usersuseridcredentialschange-password-post
+  description: Change password.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/okta/usersuseridcredentialschange-password-post-openapi.md
+- name: Users (Okta API) - Change Recovery Question
+  x-api-slug: usersuseridcredentialschange-recovery-question-post
+  description: Change recovery question.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg
+  humanURL: https://www.okta.com
+  baseURL: https://example.com//api/v1
+  tags: Authentication, Target, Stack Network, SaaS, Enterprise, Technology, API Provider,
+    API Service Provider, Identities, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/okta/usersuseridcredentialschange-recovery-question-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://nxtport.api.gallery.streamdata.io

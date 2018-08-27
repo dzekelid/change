@@ -1,0 +1,70 @@
+---
+swagger: "2.0"
+x-collection-name: GIG & CROWD
+x-complete: 0
+info:
+  title: GIGANDCROWD Post Password Change
+  version: 1.0.0
+  description: Post password change.
+host: gigandcrowd.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /api/v1/gigme/password/change:
+    post:
+      summary: Post Gigme Password Change
+      description: Post gigme password change.
+      operationId: postApiV1GigmePasswordChange
+      x-api-path-slug: apiv1gigmepasswordchange-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Gigme
+      - Password
+      - Change
+  /api/v1/password/change:
+    post:
+      summary: Post Password Change
+      description: Post password change.
+      operationId: postApiV1PasswordChange
+      x-api-path-slug: apiv1passwordchange-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Password
+      - Change
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

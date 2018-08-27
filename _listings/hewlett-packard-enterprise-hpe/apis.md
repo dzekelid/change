@@ -10,11 +10,21 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Change
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/hewlett-packard-enterprise-hpe/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: HPE OneSphere API - Post Password Reset Change
+  x-api-slug: passwordresetchange-post
+  description: Process a password reset.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HPE-logo.png
+  humanURL: http://HPE.com
+  baseURL: https://deic02-hpe.hpeonesphere.com//rest
+  tags: Enterprise, Cloud, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/change/master/_listings/hewlett-packard-enterprise-hpe/passwordresetchange-post-openapi.md
 x-common:
 - type: x-developer
   url: https://developer.hpe.com/
